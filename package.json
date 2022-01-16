@@ -1,0 +1,25 @@
+{
+  "name": "hachiware_server_module_public",
+  "version": "1.0.0",
+  "description": "A module for publishing the public area of the Web server package \"hachiware_server\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masatonakatsuji2021/hachiware_server_module_public.git"
+  },
+  "keywords": [
+    "hachiware",
+    "hachiware_server",
+    "module",
+    "Web Server Application"
+  ],
+  "author": "Nakatsuji Masato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masatonakatsuji2021/hachiware_server_module_public/issues"
+  },
+  "homepage": "https://github.com/masatonakatsuji2021/hachiware_server_module_public#readme"
+}

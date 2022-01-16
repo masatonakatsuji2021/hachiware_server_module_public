@@ -41,9 +41,20 @@
 
 				var url = row.url;
 
+				if(url == "/"){
+					url = "";
+				};
+
 				var baseUrl = requestUrl + "/";
+
 				if(baseUrl.indexOf(url + "/") === 0){
 					assets = row;
+				}
+			}
+
+			if(assets){
+				if(assets.url == "/"){
+					assets.url = "";
 				}
 			}
 
@@ -84,7 +95,8 @@
 		 */
 		const loadAssets = function(assets, req, res){
 			var filePath = conf.rootPath + "/" + assets.mount + req.url.replace(assets.url,"");
-            
+            console.log(filePath);
+			
 			res.statusCode = 200;
 
 			if(!fs.existsSync(filePath)){
