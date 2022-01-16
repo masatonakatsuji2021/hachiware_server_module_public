@@ -15,13 +15,13 @@
  module.exports = function(conf){
     
     /**
-     * fooKAccess
+     * fookRequest
      * @param {*} resolve 
      * @param {*} req 
      * @param {*} res 
      * @returns 
      */
-     this.fooKAccess = function(resolve, req, res){
+     this.fookRequest = function(resolve, req, res){
 
 		/**
 		 * searchAssets
@@ -95,8 +95,7 @@
 		 */
 		const loadAssets = function(assets, req, res){
 			var filePath = conf.rootPath + "/" + assets.mount + req.url.replace(assets.url,"");
-            console.log(filePath);
-			
+						
 			res.statusCode = 200;
 
 			if(!fs.existsSync(filePath)){
