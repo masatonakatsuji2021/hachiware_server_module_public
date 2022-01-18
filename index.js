@@ -4,8 +4,11 @@
  * 
  * A module for publishing the public area of the Web server package "hachiware_server".
  * 
- * Author : Nakatsuji Masato 
- * GitHub : https://github.com/masatonakatsuji2021/hachiware_server_module_public
+ * License : MIT License. 
+ * Since   : 2022.01.15
+ * Author  : Nakatsuji Masato 
+ * GitHub  : https://github.com/masatonakatsuji2021/hachiware_server_module_public
+ * npm     : https://www.npmjs.com/package/hachiware_server_module_public
  * ==========================================================================================
  */
 
