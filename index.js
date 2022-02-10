@@ -88,7 +88,7 @@
 			}
 
 			res.writeHead(200,headers);
-			var file = fs.readFileSync(filePath, "binary");
+			var file = fs.readFileSync(filePath);
 			res.write(file);
 		};
 
