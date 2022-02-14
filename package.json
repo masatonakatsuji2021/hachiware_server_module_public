@@ -1,6 +1,6 @@
 {
   "name": "hachiware_server_module_public",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for publishing the public area of the Web server package \"hachiware_server\".",
   "main": "index.js",
   "scripts": {
